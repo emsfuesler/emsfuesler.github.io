@@ -1,11 +1,15 @@
-p{
-  font-size: 16px;
-  font-family: helvetica;
-}
-
 h3{
   font-size: 24px;
   font-family: helvetica;
   font-style: bold;
   color: white;
+}
+
+div text box_1{
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+  font-size: 16px;
+  font-family: helvetica;
 }
