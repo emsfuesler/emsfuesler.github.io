@@ -26,15 +26,26 @@ h2 {
   color: #fe47ea;
 }
 
-.artBox{
-  position: absolute;
+.container{
+  position: relative;
+  overflow:auto;
   width:1000px;
   height:600px;
   background:black;
   border-style: solid;
   border-color:yellow;
-  padding:3px;
+  padding:1px;
   margin:15px;
   left:210px;
   top:100px;
+}
+
+img{
+  width: 327px;
+  height:294px;
+  float:left;
+  margin:1px;
+  border-style:solid;
+  border-color:black;
+  /* padding:2px; */
 }
