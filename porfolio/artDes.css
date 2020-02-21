@@ -37,7 +37,7 @@ h2 {
   padding:1px;
   margin:15px;
   left:210px;
-  top:100px;
+  top:80px;
 }
 
 img{
@@ -48,4 +48,9 @@ img{
   border-style:solid;
   border-color:black;
   /* padding:2px; */
+}
+
+img:hover{
+  filter:brightness(70%) blur(2px) saturate(2);
+  transition: 0.3s;
 }
