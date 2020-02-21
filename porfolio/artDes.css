@@ -3,7 +3,11 @@
   src: url('gothambolditalic.ttf');
 }
 
+@font-face {
+  font-family:thicc;
+  src: url('gothambold.ttf');
 
+}
 body{
   max-width:800px;
   max-height:300px;
@@ -27,8 +31,8 @@ h2 {
 }
 
 .container{
-  position: relative;
-  overflow:auto;
+  position: absolute;
+  overflow: auto;
   width:1000px;
   height:600px;
   background:black;
@@ -51,6 +55,44 @@ img{
 }
 
 img:hover{
-  filter:brightness(70%) blur(2px) saturate(2);
+  opacity:20%;
+  filter:saturate(2);
   transition: 0.3s;
+}
+
+.homeButton{
+  top:100px;
+  left:70px;
+  position: absolute;
+  background-color:yellow;
+  color:#fe47ea;
+  width: 70px;
+  height:600px;
+  writing-mode: vertical-rl;
+  text-orientation:upright;
+  text-align: center;
+  font-family: thicc;
+  font-size: 59px;
+}
+.homeButton_2{
+  top:100px;
+  right:70px;
+  position: absolute;
+  background-color:yellow;
+  color:#fe47ea;
+  width: 70px;
+  height:600px;
+  writing-mode: vertical-rl;
+  text-orientation:upright;
+  text-align: center;
+  font-family: thicc;
+  font-size: 59px;
+}
+
+.homeButton:hover{
+  background-color:black;
+}
+.homeButton_2:hover{
+  transition:0.1s;
+  background-color:black;
 }
