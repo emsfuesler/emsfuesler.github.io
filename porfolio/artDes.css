@@ -15,16 +15,16 @@ body{
 
 h1 {
   position: absolute;
-  left: 620px;
+  left: 40%;
   top: 20px;
-  width:200px;
-  height:40px;
+  width:20%;
+  height:6%;
   border:5px;
   margin:5px;
   transform: skew(345deg);
   background: yellow;
   font-family: gotham;
-  font-size: 46px;
+  font-size: calc(32px + (42-32) *((100vw - 700px) / (1920-700)));
   padding-bottom: 10px;
   text-align:center;
   color: #fe47ea;
@@ -32,38 +32,39 @@ h1 {
 
 h2 {
   position: absolute;
-  left: 620px;
+  left: 40%;
   top: 20px;
-  width:230px;
-  height:40px;
+  width:20%;
+  height:6%;
   border:5px;
   margin:5px;
   transform: skew(345deg);
   background: yellow;
   font-family: gotham;
-  font-size: 46px;
+  font-size: calc(32px + (42-32) *((100vw - 700px) / (1920-700)));
   padding-bottom: 10px;
   text-align:center;
-  color:#5493ef ;
+  color: #5493ef;
 }
 
 .container{
   position: absolute;
   overflow: auto;
-  width:1000px;
-  height:600px;
+  width:79%;
+  height:46vw;
   background:black;
   border-style: solid;
   border-color:yellow;
   padding:1px;
   margin:15px;
-  left:210px;
+  left:8%;
   top:80px;
 }
 
 img{
-  width: 327px;
-  height:294px;
+  position:relative;
+  width: 25.54vw;
+  height: 22.5vw;
   float:left;
   margin:1px;
   border-style:solid;
@@ -79,59 +80,63 @@ img:hover{
 
 .homeButton{
   top:100px;
-  left:70px;
+  left:3%;
   position: absolute;
   background-color:yellow;
   color:#fe47ea;
-  width: 70px;
-  height:600px;
+  width: 5%;
+  height:45vw;
   writing-mode: vertical-rl;
   text-orientation:upright;
   text-align: center;
   font-family: thicc;
-  font-size: 59px;
+  font-size: calc(36px + (52-36) *((100vw - 700px) / (1920-700)));
 }
 .homeButton_2{
   top:100px;
-  right:70px;
+  right:3%;
   position: absolute;
   background-color:yellow;
   color:#fe47ea;
-  width: 70px;
-  height:600px;
+  width: 5%;
+  height:45vw;
   writing-mode: vertical-rl;
   text-orientation:upright;
   text-align: center;
   font-family: thicc;
-  font-size: 59px;
+  font-size: calc(32px + (48-36) *((100vw - 700px) / (1920-700)));
 }
-.homeButton_3{
-  top:100px;
-  left:70px;
-  position: absolute;
-  background-color:yellow;
-  color:#5493ef;
-  width: 70px;
-  height:600px;
-  writing-mode: vertical-rl;
-  text-orientation:upright;
-  text-align: center;
-  font-family: thicc;
-  font-size: 59px;}
+
 .homeButton_4{
   top:100px;
-  right:70px;
+  right:3%;
   position: absolute;
   background-color:yellow;
   color:#5493ef;
-  width: 70px;
-  height:600px;
+  width: 5%;
+  height:45vw;
   writing-mode: vertical-rl;
   text-orientation:upright;
   text-align: center;
   font-family: thicc;
-  font-size: 59px;
+  font-size: calc(32px + (48-36) *((100vw - 700px) / (1920-700)));
 }
+
+.homeButton_3{
+  top:100px;
+  left:3%;
+  position: absolute;
+  background-color:yellow;
+  color:#5493ef;
+  width: 5%;
+  height:45vw;
+  writing-mode: vertical-rl;
+  text-orientation:upright;
+  text-align: center;
+  font-family: thicc;
+  font-size: calc(36px + (52-36) *((100vw - 700px) / (1920-700)));
+}
+
 .homeButton:hover{
   background-color:black;
 }
