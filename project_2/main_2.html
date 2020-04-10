@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>story</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style type="text/css">
+	body{
+		background-image: url("assets/falling.gif");
+    background-size: 100%
+	}
+
+	#end{
+		background:black;
+		font-family:verdana;
+		font-size:3vw;
+	  width:90%;
+		height:90%;
+		padding:5%;
+		color:white;
+	}
+
+	</style>
+</head>
+<body>
+
+	<div id="end"> You've made it, but this is only the beginning, it's something
+	you will carry with you for the rest of your life. And you'll need to deal with it,
+	but it doesn't define you. Yes, it makes you different, but not othered. It makes you, you
+	and maybe that means taking extra time to care for yourself. Someone once told me that
+	those who are othered love themselve like alcoholics. They're still them, but theres something
+	about them that needs to be fixed. We need to learn to love ourselves less like alcoholics,
+	and more like someone who is left handed. You don't need to change, you just do things differently,
+	and it still makes you, you </div>
+
+	<div id="background">  </div>
+
+
+	<script type="text/javascript">
+	  //automatically start at the homepage
+		var i = 0;
+    //variable for the counter
+		var t=0;
+    //array of all the potential images for the background
+
+	  var image = new Array;
+		image[0] = "assets/asset_1.png";
+	  image[1] = "assets/asset_2.png";
+		image[2] = "assets/asset_3.png";
+		image[3] = "assets/asset_5.png";``
+		// image[4] = ;
+		// image[5] = ;
+		// image[6] = ;
+		// image[7] = ;
+		// image[8] = ;
+		// image[9] = ;
+		// image[10] = ;
+
+		var randomImage = image[Math.floor(Math.random()*4)];
+
+		function clickcheck(){
+		//basically a function that changes the background with each click
+
+		document.body.style.backgroundImage="url("+image[randomImage]+")";
+    //call the random image
+		document. getElementById("image");
+
+		//show the ending page after 10 clicks
+		$("#end").hide();
+
+  if(i>10){
+		i=10;
+	}
+
+		if (t<10){
+			$("#end").hide();
+		}
+		else if (t>=10) {
+			$("#end").show();
+
+		}
+}
+		document.addEventListener("click", function(){
+				clickcheck();
+				//adding 1 to i so the function knows we r moving on to the next part of the story
+				i++;
+			 //add one to the counter for each click
+				t++;
+			});
+	</script>
+</body>
+</html>
