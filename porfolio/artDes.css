@@ -42,7 +42,6 @@ img{
   height: 22.8vw;
   float:left;
   margin:1px;
-  /* padding:2px; */
 }
 
 img:hover{
@@ -88,7 +87,6 @@ img:hover{
 }
 
 .artButtons:hover{
-  text-decoration: underline, 2px, black;
   opacity:50%;
 }
 

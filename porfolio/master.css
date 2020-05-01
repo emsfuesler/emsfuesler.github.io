@@ -25,7 +25,7 @@ body{
 h2{
   position: relative;
   left: 42%;
-  top:70px;
+  top:5vw;;
   width:20%;
   min-width:150px;
   height:4%;
@@ -41,7 +41,7 @@ h2{
 }
 
 .navBoxes{
-  margin-top:8px;
+  margin-top:3vw;
   position: absolute;
   left: 10%;
   top: 15%;
@@ -61,18 +61,17 @@ img:hover{
 
 h3 {
   width:8%;
-  height:3%;
-  padding:5px;
-  border:0px;
-  margin:px;
+  height:4%;
+  padding-left:2%;
+  text-align: center, center;
   transform: skew(345deg);
   background: yellow;
   position: absolute;
   font-family: gotham;
-  font-size: 20px;
+  font-size: 22px;
   color:black;
-  bottom: -12%;
-  left:45%;
+  top:54vw;
+  left:48%;
 }
 
 h3:hover{
