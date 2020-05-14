@@ -1,0 +1,19 @@
+$(document).ready(function(){
+  $(".infoWomen").hide();
+  $(".infoTrans").hide();
+  $(".infoQueer").hide();
+  $(".infoAI").hide();
+
+  $("#women").click(function(){
+    $(".infoWomen").show();
+  });
+  $("#transwomen").click(function(){
+    $(".infoTrans").show();
+  });
+  $("#queers").click(function(){
+    $(".infoQueer").show();
+  });
+  $("#AI").click(function(){
+    $(".infoAI").show();
+  });
+});

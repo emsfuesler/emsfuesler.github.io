@@ -1,0 +1,58 @@
+
+body{
+  background-color: black;
+}
+
+.canvas{
+  overflow: auto;
+  position: absolute;
+  top:5%
+}
+
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.buttons{
+  display: inline-block;
+  vertical-align: top;
+  width: 24.6%;
+  height: 100px;
+}
+
+#blue{
+  background-color: #03befd;
+  color:#03befd;
+}
+
+#restart{
+  background-color: white;
+  font-family:sans-serif;
+  color: black;
+  font-size:60px;
+  text-align: center;
+}
+
+#yellow{
+  background-color: #fee938;
+  color: #fee938;
+}
+
+#red{
+  background-color: #ee3324;
+  color: #ee3324;
+}
+#restart:hover{
+background-color: #d4d4d4;
+}
+
+#blue:hover{
+  background-color: #5cd6ff;
+}
+#yellow:hover{
+  background-color:#fff073;
+}
+#red:hover{
+  background-color: #fc6a6a;
+}

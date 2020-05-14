@@ -27,3 +27,69 @@ p{
   font-weight: bold;
   color: white;
 }
+
+canvas{
+  position: absolute;
+  margin:0px;
+}
+
+.comparison{
+  color: black;
+  margin:3px;
+  font-size: 24px;
+  font-family: helvetica;
+}
+
+.container{
+  width:90%;
+  height: 4%;
+}
+.button{
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  height: 5%;
+  font-size: 24px;
+  color:black;
+  text-align: center;
+}
+.conatiner_2{
+  width:100%;
+  height: 40%;
+  margin:2px;
+}
+.infoWomen{
+  width:10%;
+  margin: 2px;
+  font-size: 14px;
+}
+.infoTrans{
+  width:10%;
+  margin: 2px;
+  font-size: 14px;
+}
+.infoQueer{
+  width:10%;
+  margin: 2px;
+  font-size: 14px;
+}
+.infoAI{
+  width:10%;
+  margin: 2px;
+  font-size: 14px;
+}
+
+#women{
+  background-color: white;
+
+}
+ #transwomen{
+   background-color: white;
+ }
+
+ #queers{
+   background-color: white;
+ }
+ #AI{
+   background-color: white;
+ }
