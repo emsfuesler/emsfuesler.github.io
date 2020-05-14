@@ -5,15 +5,15 @@ $(document).ready(function(){
   $(".infoAI").hide();
 
   $("#women").click(function(){
-    $(".infoWomen").show();
+    $(".infoWomen").toggle();
   });
   $("#transwomen").click(function(){
-    $(".infoTrans").show();
+    $(".infoTrans").toggle();
   });
   $("#queers").click(function(){
-    $(".infoQueer").show();
+    $(".infoQueer").toggle();
   });
   $("#AI").click(function(){
-    $(".infoAI").show();
+    $(".infoAI").toggle();
   });
 });
