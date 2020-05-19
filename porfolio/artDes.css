@@ -73,6 +73,18 @@ img:hover{
   top:80px;
 }
 
+.container_2{
+  position: absolute;
+  overflow: auto;
+  width:79%;
+  height:69vw;
+  background:yellow;
+  padding:1px;
+  margin:15px;
+  left:8%;
+  top:80px;
+}
+
 /* art page specifics */
 .artButtons{
   float: left;
@@ -189,7 +201,7 @@ img:hover{
 
 .title_7{
   position: absolute;
-  top:18%;
+  top:14%;
   left:5%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
@@ -199,7 +211,7 @@ img:hover{
 
 .title_8{
   position: absolute;
-  top:18%;
+  top:14%;
   left:40%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
@@ -209,7 +221,7 @@ img:hover{
 
 .title_9{
   position: absolute;
-  top:18%;
+  top:14%;
   left:68%;
   font-family: gotham;
   font-size:  calc(24px + (38-24) *((100vw - 700px) / (1920-700)));
@@ -219,7 +231,7 @@ img:hover{
 
 .title_10{
   position: absolute;
-  top:65%;
+  top:43%;
   left:7%;
   font-family: gotham;
   font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
@@ -230,8 +242,8 @@ img:hover{
 .title_11{
   position: absolute;
   overflow: auto;
-  top:66%;
-  left:34%;
+  top:45%;
+  left:35%;
   font-family: gotham;
   font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -241,7 +253,7 @@ img:hover{
 .title_10ish{
   position: absolute;
   overflow: auto;
-  top:75%;
+  top:48%;
   left:2%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
@@ -252,7 +264,37 @@ img:hover{
 .title_12{
   position: absolute;
   overflow: auto;
-  top:65%;
+  top:45%;
+  left:68%;
+  font-family: gotham;
+  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  text-align: center;
+  color:#5493ef;
+}
+.title_13{
+  position: absolute;
+  overflow: auto;
+  top:78%;
+  left:1%;
+  font-family: gotham;
+  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  text-align: center;
+  color:#5493ef;
+}
+.title_14{
+  position: absolute;
+  overflow: auto;
+  top:78%;
+  left:38%;
+  font-family: gotham;
+  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  text-align: center;
+  color:#5493ef;
+}
+.title_15{
+  position: absolute;
+  overflow: auto;
+  top:78%;
   left:68%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
