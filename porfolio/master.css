@@ -62,9 +62,9 @@ img:hover{
 }
 
 h3 {
-  width:8%;
+  width:9%;
   height:4%;
-  padding-left:2%;
+  padding-left:1%;
   text-align: center, center;
   transform: skew(345deg);
   background: yellow;
@@ -72,7 +72,7 @@ h3 {
   font-family: gotham;
   font-size: 22px;
   color:black;
-  top:54vw;
+  top:65vw;
   left:48%;
 }
 
