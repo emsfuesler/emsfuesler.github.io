@@ -53,6 +53,7 @@ img:hover{
 .navBar{
   margin:auto;
   position: fixed;
+  z-index: 2;
   width:95%;
   top: 7px;
   left: 2.5%;
@@ -112,25 +113,35 @@ img:hover{
   text-align: center;
   color:#fe47ea;
 }
+#wordVomit{}
 
 .title_2{
 
   position: absolute;
   overflow: auto;
-  top:18%;
-  left:38%;
+  top:14%;
+  left:36%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
   color:#fe47ea;
 }
-
+.title_2ish{
+  position: absolute;
+  overflow: auto;
+  top:22%;
+  left:37%;
+  font-family: gotham;
+  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  text-align: center;
+  color:#fe47ea;
+}
 .title_3{
 
   position: absolute;
   overflow: auto;
-  top:18%;
-  left:75%;
+  top:12%;
+  left:65%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -141,7 +152,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:65%;
-  left:2%;
+  left:7%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -300,4 +311,14 @@ img:hover{
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
   color:#5493ef;
+}
+
+#acidInfo{
+  left: -3px;
+  border:0px;
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
+  width:100vh;
+  height:100vh;
 }
