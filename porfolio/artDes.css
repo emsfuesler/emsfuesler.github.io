@@ -116,7 +116,6 @@ img:hover{
 #wordVomit{}
 
 .title_2{
-
   position: absolute;
   overflow: auto;
   top:14%;
@@ -132,7 +131,7 @@ img:hover{
   top:22%;
   left:37%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
   color:#fe47ea;
 }
