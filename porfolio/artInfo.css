@@ -2,6 +2,11 @@
   font-family: gotham;
   src: url('gothambolditalic.ttf');
 }
+
+@font-face {
+  font-family:gothambook;
+  src: url('GothamMedium.ttf');
+}
 body{
   max-width:800px;
   max-height:1000px;
@@ -9,19 +14,56 @@ body{
   background-color: black;
 }
 
-img{
+.acidPort img{
   overflow: auto;
   position: relative;
-  width:35vw;
-  height:40vw;
-  left:2%;
+  float: left;
+  width:20vw;
+  height:25vw;
   margin: 5px;
 }
+
+.anxiety img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:20vw;
+  height:25vw;
+  margin: 5px;
+}
+
+.acidBath img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:17vw;
+  height:25vw;
+  margin: 5px;
+}
+
+.studies img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:38vw;
+  height:20vw;
+  margin: 5px;
+}
+
+.yaqui img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:24vw;
+  height:20vw;
+  margin: 5px;
+}
+
 h1{
 overflow: auto;
 position: absolute;
 left:70vw;
-top:1vw;
+top:12vh;
 width:25%;
 min-width:150px;
 height:8%;
@@ -35,11 +77,66 @@ font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
 text-align:center;
 color: black;
 }
+
+h2 {
+  margin:0px;
+  border:0px;
+  position: fixed;
+  left: 45%;
+  font-family: gotham;
+  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  text-align:center;
+  color: black;
+}
+
+.navBar{
+  margin:auto;
+  position: fixed;
+  z-index: 2;
+  width:95%;
+  top: 7px;
+  left: 2.5%;
+  height:5vw;
+  transform: skew(345deg);
+  background: #fe47ea;
+}
+
+.artButtons{
+  float: left;
+  overflow:auto;
+  font-family: gotham;
+  color: black;
+  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
+  padding:1%;
+  margin-left: 3%;
+  border:0px;
+  width: 15%;
+}
+
+.artButtons:hover{
+  opacity:50%;
+}
+
+.container{
+  position: absolute;
+  overflow: auto;
+  width:70%;
+  height:60vw;
+  padding:1px;
+  margin:15px;
+  left:2%;
+  top:7vw;
+}
+
 .info{
-  width: 40vw;
+  position: absolute;
+  top: 22vh;
+  width:30vw;
+  right: 3vw;
   height:50%;
   margin: 2px;
-  font-family: gotham;
-  font-size: calc(30px + (38-30) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  text-align: right;
+  font-size: calc(20px + (26-20) *((100vw - 700px) / (1920-700)));
   color: white;
 }
