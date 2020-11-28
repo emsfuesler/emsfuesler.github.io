@@ -1,0 +1,177 @@
+@font-face {
+  font-family: gotham;
+  src: url('gothambolditalic.ttf');
+}
+
+@font-face {
+  font-family:gothambook;
+  src: url('GothamMedium.ttf');
+}
+
+body{
+  max-width:800px;
+  max-height:1200px;
+  min-height: 1000px;
+  background: black;
+}
+
+h1{
+overflow: auto;
+position: absolute;
+right:35%;
+top:12vh;
+width:30%;
+min-width:150px;
+height:8%;
+padding:3px;
+border:5px;
+margin:5px;
+transform: skew(345deg);
+background: #5493ef;
+font-family: gotham;
+font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+text-align:center;
+color: black;
+}
+
+h2 {
+  margin:0px;
+  border:0px;
+  position: fixed;
+  left: 40%;
+  font-family: gotham;
+  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  text-align:center;
+  color: black;
+}
+
+.info{
+  position: absolute;
+  overflow: auto;
+  top: 22vh;
+  width:90vw;
+  right: 6vw;
+  height:50%;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+.info_2{
+  position: absolute;
+  overflow: auto;
+  top: 62vw;
+  width:90vw;
+  right: 6vw;
+  height:50%;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+.info_3{
+  position: absolute;
+  overflow: auto;
+  top: 122vw;
+  width:90vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+.info_4{
+  position: absolute;
+  overflow: auto;
+  top: 182vw;
+  width:90vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+.info_5{
+  position: absolute;
+  overflow: auto;
+  top: 242vw;
+  width:90vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+.navBar{
+  margin:auto;
+  position: absolute;
+  z-index: 2;
+  width:95%;
+  top: 7px;
+  left: 2.5%;
+  height:5vw;
+  transform: skew(345deg);
+  background: #5493ef;
+}
+
+.desButtons{
+  float: left;
+  overflow:auto;
+  font-family: gotham;
+  color: black;
+  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
+  padding:1%;
+  margin-left: 4%;
+  border:0px;
+  width: 14%;
+}
+
+.desButtons:hover {
+  text-decoration: underline, 2px, black;
+  opacity:50%;
+}
+
+.scene_1 img{
+  position: absolute;
+  top:20vw;
+  height: 40vw;
+  width: 98vw;
+}
+
+.scene_2 img{
+  position: absolute;
+  top:75vw;
+  height: 45vw;
+  width: 98vw;
+}
+
+.scene_3 img{
+  position: absolute;
+  top:135vw;
+  height: 45vw;
+  width: 98vw;
+}
+
+.scene_4 img{
+  position: absolute;
+  top:195vw;
+  height: 45vw;
+  width: 98vw;
+}
+
+.scene_5 img{
+  position: absolute;
+  top:253vw;
+  height: 50vw;
+  width: 98vw;
+}

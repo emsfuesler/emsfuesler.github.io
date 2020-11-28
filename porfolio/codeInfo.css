@@ -38,7 +38,7 @@ h2 {
   margin:0px;
   border:0px;
   position: fixed;
-  left: 45%;
+  left: 42%;
   font-family: gotham;
   font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
   text-align:center;
@@ -59,10 +59,9 @@ h3{
   top: 98%;
 }
 
-.navBar{
+.navBar_2{
   margin:auto;
   position: fixed;
-  z-index: 2;
   width:95%;
   top: 7px;
   left: 2.5%;
@@ -71,7 +70,7 @@ h3{
   background: #ff4800;
 }
 
-.artButtons{
+.codeButtons{
   float: left;
   overflow:auto;
   font-family: gotham;
@@ -83,7 +82,7 @@ h3{
   width: 15%;
 }
 
-.artButtons:hover{
+.codeButtons:hover{
   opacity:50%;
 }
 

@@ -10,8 +10,8 @@
 }
 body{
   max-width:800px;
-  max-height:1000px;
-  min-height: 700px;
+  max-height:1200px;
+  min-height: 1000px;
 }
 
 h1 {
@@ -34,6 +34,12 @@ h2 {
   font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
   text-align:center;
   color: #5493ef;
+}
+
+.hollow img{
+  position: relative;
+  height: 22vw;
+  width: 77.6vw;
 }
 
 img{
@@ -65,25 +71,25 @@ img:hover{
 .container{
   position: absolute;
   overflow: auto;
-  width:79%;
+  width:78.5%;
   height:46vw;
   background:yellow;
   padding:1px;
   margin:15px;
   left:8%;
-  top:80px;
+  top:100px;
 }
 
 .container_2{
   position: absolute;
   overflow: auto;
-  width:79%;
-  height:69vw;
+  width:78.5%;
+  height:91vw;
   background:yellow;
   padding:1px;
   margin:15px;
   left:8%;
-  top:80px;
+  top:120px;
 }
 
 /* art page specifics */
@@ -107,7 +113,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:18%;
-  left:1%;
+  left:2%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -118,7 +124,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:14%;
-  left:36%;
+  left:37%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -128,7 +134,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:22%;
-  left:37%;
+  left:38%;
   font-family: gotham;
   font-size: calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -148,8 +154,8 @@ img:hover{
 .title_4{
   position: absolute;
   overflow: auto;
-  top:65%;
-  left:7%;
+  top:68%;
+  left:9%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -160,7 +166,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:65%;
-  left:37%;
+  left:38%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -171,7 +177,7 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:72%;
-  left:43%;
+  left:44%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -181,8 +187,8 @@ img:hover{
 .title_6{
   position: absolute;
   overflow: auto;
-  top:65%;
-  left:71%;
+  top:68%;
+  left:74%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -207,10 +213,20 @@ img:hover{
   opacity:50%;
 }
 
+.titleHollow{
+  position: absolute;
+  top:8%;
+  left:38%;
+  font-family: gotham;
+  font-size:  calc(65px + (72-65) *((100vw - 700px) / (1920-700)));
+  text-align: center;
+  color:#5493ef;
+}
+
 .title_7{
   position: absolute;
-  top:14%;
-  left:5%;
+  top:35%;
+  left:7%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -219,7 +235,7 @@ img:hover{
 
 .title_8{
   position: absolute;
-  top:14%;
+  top:35%;
   left:40%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
@@ -229,7 +245,7 @@ img:hover{
 
 .title_9{
   position: absolute;
-  top:14%;
+  top:35%;
   left:68%;
   font-family: gotham;
   font-size:  calc(24px + (38-24) *((100vw - 700px) / (1920-700)));
@@ -239,8 +255,8 @@ img:hover{
 
 .title_10{
   position: absolute;
-  top:43%;
-  left:7%;
+  top:58%;
+  left:9%;
   font-family: gotham;
   font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -250,8 +266,8 @@ img:hover{
 .title_11{
   position: absolute;
   overflow: auto;
-  top:45%;
-  left:35%;
+  top:60%;
+  left:37%;
   font-family: gotham;
   font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -261,8 +277,8 @@ img:hover{
 .title_10ish{
   position: absolute;
   overflow: auto;
-  top:48%;
-  left:2%;
+  top:62%;
+  left:4%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -272,7 +288,7 @@ img:hover{
 .title_12{
   position: absolute;
   overflow: auto;
-  top:45%;
+  top:58%;
   left:68%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
@@ -282,8 +298,8 @@ img:hover{
 .title_13{
   position: absolute;
   overflow: auto;
-  top:78%;
-  left:1%;
+  top:85%;
+  left:3%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -292,8 +308,8 @@ img:hover{
 .title_14{
   position: absolute;
   overflow: auto;
-  top:78%;
-  left:38%;
+  top:85%;
+  left:41%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
@@ -302,20 +318,10 @@ img:hover{
 .title_15{
   position: absolute;
   overflow: auto;
-  top:78%;
-  left:68%;
+  top:85%;
+  left:70%;
   font-family: gotham;
   font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
   text-align: center;
   color:#5493ef;
-}
-
-#acidInfo{
-  left: -3px;
-  border:0px;
-  margin: 0px;
-  position: absolute;
-  z-index: 1;
-  width:100vh;
-  height:100vh;
 }

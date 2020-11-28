@@ -15,6 +15,32 @@ body{
   background-color: black;
 }
 
+.desButtons{
+  float: left;
+  overflow:auto;
+  font-family: gotham;
+  color: black;
+  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
+  padding:1%;
+  margin-left: 4%;
+  border:0px;
+  width: 14%;
+}
+
+.desButtons:hover {
+  text-decoration: underline, 2px, black;
+  opacity:50%;
+}
+
+.illustrator img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:30vw;
+  height:20vw;
+  margin: 5px;
+}
+
 .lenovo img{
   overflow: auto;
   position: relative;
@@ -32,6 +58,34 @@ body{
   height:70vw;
   margin: 5px;
 }
+
+.spectrum img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:50vw;
+  height:35vw;
+  margin: 5px;
+}
+
+.acidPort img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:20vw;
+  height:25vw;
+  margin: 5px;
+}
+
+.gorillaz img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:25vw;
+  height:25vw;
+  margin: 5px;
+}
+
 h1{
 overflow: auto;
 position: absolute;
@@ -51,11 +105,30 @@ text-align:center;
 color: black;
 }
 
+/* title but smaller */
+h4{
+overflow: auto;
+position: absolute;
+right:3vw;
+top:12vh;
+width:25%;
+height:8%;
+padding:3px;
+border:5px;
+margin:5px;
+transform: skew(345deg);
+background: #5493ef;
+font-family: gotham;
+font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+text-align:center;
+color: black;
+}
+
 h2 {
   margin:0px;
   border:0px;
   position: fixed;
-  left: 45%;
+  left: 40%;
   font-family: gotham;
   font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
   text-align:center;
@@ -88,17 +161,7 @@ h3{
   background: #5493ef;
 }
 
-.artButtons{
-  float: left;
-  overflow:auto;
-  font-family: gotham;
-  color: black;
-  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
-  padding:1%;
-  margin-left: 3%;
-  border:0px;
-  width: 15%;
-}
+
 
 .artButtons:hover{
   opacity:50%;
@@ -119,11 +182,16 @@ h3{
   position: absolute;
   top: 22vh;
   width:30vw;
-  right: 3vw;
+  right: 5vw;
   height:50%;
   margin: 2px;
   font-family: gothambook;
   text-align: right;
   font-size: calc(20px + (26-20) *((100vw - 700px) / (1920-700)));
   color: white;
+}
+
+.info a{
+  color:#5493ef;
+  text-decoration: none;
 }

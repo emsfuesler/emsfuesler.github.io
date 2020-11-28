@@ -59,6 +59,33 @@ body{
   margin: 5px;
 }
 
+.demon img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:28vw;
+  height:20vw;
+  margin: 5px;
+}
+
+.bug img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:40vw;
+  height:34vw;
+  margin: 5px;
+}
+
+.sirens img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:40vw;
+  height:60vw;
+  margin: 5px;
+}
+
 h1{
 overflow: auto;
 position: absolute;
@@ -87,6 +114,26 @@ h2 {
   font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
   text-align:center;
   color: black;
+}
+
+/* this is basically H1 but bigger */
+h3{
+overflow: auto;
+position: absolute;
+left:57vw;
+top:12vh;
+width:38%;
+min-width:150px;
+height:8%;
+padding:3px;
+border:5px;
+margin:5px;
+transform: skew(345deg);
+background: #fe47ea;
+font-family: gotham;
+font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+text-align:center;
+color: black;
 }
 
 .navBar{
@@ -121,22 +168,37 @@ h2 {
   position: absolute;
   overflow: auto;
   width:70%;
-  height:60vw;
+  height:70vw;
   padding:1px;
   margin:15px;
   left:2%;
   top:7vw;
 }
 
+.container_2{
+  position: absolute;
+  overflow: auto;
+  width:60%;
+  height:60vw;
+  padding:1px;
+  margin:15px;
+  left:2%;
+  top:7vw;
+}
 .info{
   position: absolute;
   top: 22vh;
-  width:30vw;
-  right: 3vw;
+  width:28vw;
+  right: 5vw;
   height:50%;
   margin: 2px;
   font-family: gothambook;
   text-align: right;
   font-size: calc(20px + (26-20) *((100vw - 700px) / (1920-700)));
   color: white;
+}
+
+.info a{
+  color:#fe47ea;
+  text-decoration: none;
 }
