@@ -10,8 +10,7 @@
 
 body{
   max-width:800px;
-  max-height:1200px;
-  min-height: 1000px;
+  min-height: 6200px;
   background: black;
 }
 
@@ -44,7 +43,7 @@ h2 {
   text-align:center;
   color: black;
 }
-
+/* text boxes */
 .info{
   position: absolute;
   overflow: auto;
@@ -62,7 +61,7 @@ h2 {
 .info_2{
   position: absolute;
   overflow: auto;
-  top: 62vw;
+  top: 69vw;
   width:90vw;
   right: 6vw;
   height:50%;
@@ -76,7 +75,7 @@ h2 {
 .info_3{
   position: absolute;
   overflow: auto;
-  top: 122vw;
+  top: 138vw;
   width:90vw;
   right: 6vw;
   margin: 2px;
@@ -89,7 +88,7 @@ h2 {
 .info_4{
   position: absolute;
   overflow: auto;
-  top: 182vw;
+  top: 191vw;
   width:90vw;
   right: 6vw;
   margin: 2px;
@@ -102,7 +101,7 @@ h2 {
 .info_5{
   position: absolute;
   overflow: auto;
-  top: 242vw;
+  top: 255vw;
   width:90vw;
   right: 6vw;
   margin: 2px;
@@ -112,6 +111,20 @@ h2 {
   color: white;
 }
 
+.info_6{
+  position: absolute;
+  overflow: auto;
+  top: 313vw;
+  width:90vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  color: white;
+}
+
+/* Navbar */
 .navBar{
   margin:auto;
   position: absolute;
@@ -140,17 +153,17 @@ h2 {
   text-decoration: underline, 2px, black;
   opacity:50%;
 }
-
+/* scenes (out of order) */
 .scene_1 img{
   position: absolute;
-  top:20vw;
-  height: 40vw;
+  top:80vw;
+  height: 55vw;
   width: 98vw;
 }
 
 .scene_2 img{
   position: absolute;
-  top:75vw;
+  top:22vw;
   height: 45vw;
   width: 70vw;
   left: 12vw;
@@ -158,21 +171,210 @@ h2 {
 
 .scene_3 img{
   position: absolute;
-  top:135vw;
-  height: 45vw;
+  top:148vw;
+  height: 40vw;
   width: 98vw;
 }
 
 .scene_4 img{
   position: absolute;
-  top:195vw;
-  height: 45vw;
+  top:202vw;
+  height: 50vw;
   width: 98vw;
 }
 
 .scene_5 img{
   position: absolute;
-  top:253vw;
-  height: 55vw;
+  top:265vw;
+  height: 45vw;
   width: 98vw;
+}
+
+/* JQUERY STUFF */
+.homes{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 39.5vw;
+  top:162.5vw;
+}
+
+.homes:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.homesInfo{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  right: 32vw;
+  top:165vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.pollen{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 30.5vw;
+  top:161.5vw;
+}
+
+.pollen:hover{
+  border-style: solid;
+  border-color: white;
+}
+.pollenInfo{
+  position: absolute;
+  width: 10vw;
+  height: 7vw;
+  left: 33vw;
+  top:164vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.tree{
+  position: absolute;
+  width: 10vw;
+  height: 12vw;
+  left: 21vw;
+  top:166vw;
+}
+
+.tree:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.treeInfo{
+  position: absolute;
+  width: 10vw;
+  height: 5vw;
+  left: 32vw;
+  top:166vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.ficus{
+  position: absolute;
+  width: 9vw;
+  height: 24vw;
+  left: 7vw;
+  top:156vw;
+}
+
+.ficus:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.ficusInfo{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  left: 17vw;
+  top:166vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.fern{
+  position: absolute;
+  width: 13vw;
+  height: 11vw;
+  left: 2vw;
+  top:176vw;;
+}
+
+.fern:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.fernInfo{
+  position: absolute;
+  width: 9vw;
+  height: 7vw;
+  left: 16vw;
+  top:180vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.mouse{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 4vw;
+  top:184vw;
+}
+
+.mouse:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.mouseInfo{
+  position: absolute;
+  width: 9vw;
+  height: 7vw;
+  right: 6vw;
+  top:180vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.mouseInfo img{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  padding-top: 1vw;
+}
+
+.spores{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 26vw;
+  top:175vw;
+}
+
+.spores:hover{
+  border-style: solid;
+  border-color: white;
+}
+
+.sporesInfo{
+  position: absolute;
+  width: 9vw;
+  height: 6vw;
+  right: 17vw;
+  top:175vw;
+  background-color: white;
+  color: black;
+  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-family: gothambook;
+  padding: 3px;
 }
