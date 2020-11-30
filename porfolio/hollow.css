@@ -152,7 +152,8 @@ h2 {
   position: absolute;
   top:75vw;
   height: 45vw;
-  width: 98vw;
+  width: 70vw;
+  left: 12vw;
 }
 
 .scene_3 img{
@@ -172,6 +173,6 @@ h2 {
 .scene_5 img{
   position: absolute;
   top:253vw;
-  height: 50vw;
+  height: 55vw;
   width: 98vw;
 }
