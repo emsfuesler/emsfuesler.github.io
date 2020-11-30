@@ -47,7 +47,7 @@ img{
   width: 25.8vw;
   height: 22.8vw;
   float:left;
-  margin:1px;
+  margin:0.05vw;
 }
 
 img:hover{
@@ -71,7 +71,7 @@ img:hover{
 .container{
   position: absolute;
   overflow: auto;
-  width:78.5%;
+  width:77.8vw;
   height:46vw;
   background:yellow;
   padding:1px;
@@ -83,7 +83,7 @@ img:hover{
 .container_2{
   position: absolute;
   overflow: auto;
-  width:78.5%;
+  width:77.8vw;
   height:91vw;
   background:yellow;
   padding:1px;

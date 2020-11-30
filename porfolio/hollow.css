@@ -10,7 +10,7 @@
 
 body{
   max-width:800px;
-  min-height: 6200px;
+  min-height: 320vw;
   background: black;
 }
 
@@ -20,8 +20,7 @@ position: absolute;
 right:35%;
 top:12vh;
 width:30%;
-min-width:150px;
-height:8%;
+height:4vw;
 padding:3px;
 border:5px;
 margin:5px;
@@ -212,7 +211,7 @@ h2 {
   top:165vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size: 0.8vw;
   font-family: gothambook;
   padding: 2px;
 }
@@ -237,7 +236,7 @@ h2 {
   top:164vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size: 0.8vw;
   font-family: gothambook;
   padding: 2px;
 }
@@ -263,7 +262,7 @@ h2 {
   top:166vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size:0.8vw;
   font-family: gothambook;
   padding: 2px;
 }
@@ -289,7 +288,7 @@ h2 {
   top:166vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size: 0.8vw;
   font-family: gothambook;
   padding: 3px;
 }
@@ -315,7 +314,7 @@ h2 {
   top:180vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size:0.8vw;
   font-family: gothambook;
   padding: 3px;
 }
@@ -341,7 +340,7 @@ h2 {
   top:180vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size: 0.8vw;
   font-family: gothambook;
   padding: 3px;
 }
@@ -369,12 +368,12 @@ h2 {
 .sporesInfo{
   position: absolute;
   width: 9vw;
-  height: 6vw;
+  height: 7vw;
   right: 17vw;
   top:175vw;
   background-color: white;
   color: black;
-  font-size: calc(8px + (12-8) *((100vw - 700px) / (1920-700)));
+  font-size: 0.84vw;
   font-family: gothambook;
   padding: 3px;
 }
