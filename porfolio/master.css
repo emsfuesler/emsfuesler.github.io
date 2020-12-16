@@ -1,4 +1,50 @@
-/* test */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 @font-face {
   font-family: gotham;
@@ -13,22 +59,26 @@ body{
 }
 
 .emsfuesler{
-  font-size: calc(36px + (52-36) *((100vw - 700px) / (1920-700)));
+	top:0.5vw;
+  font-size: 4.2vw;
   position: absolute;
-  left: 37%;
+  left: 33vw;
   padding: 1px;
   margin: 1px;
   margin-bottom: 1px;
   font-family: gotham;
   color:yellow;
   text-shadow: -5px 3px #c8569b;
+	height: 6vw;
 }
 
 h2{
   position: relative;
-  left: 42%;
-  top:5vw;;
+  left: 38vw;
+  top:5vw;
   width:20%;
+	top:4.8vw;
+	height:3vw;
   min-width:150px;
   height:4%;
   padding:3px;
@@ -37,7 +87,7 @@ h2{
   transform: skew(345deg);
   background: yellow;
   font-family: gotham;
-  font-size: calc(16px + (24-16) *((100vw - 700px) / (1920-700)));
+  font-size: 2vw;
   text-align:center;
   color: black;
 }

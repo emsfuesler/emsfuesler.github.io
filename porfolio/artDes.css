@@ -1,3 +1,51 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 @font-face {
   font-family: gotham;
   src: url('gothambolditalic.ttf');
@@ -20,7 +68,7 @@ h1 {
   position: fixed;
   left: 45%;
   font-family: gotham;
-  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  font-size: 4vw;
   text-align:center;
   color: #fe47ea;
 }
@@ -31,7 +79,7 @@ h2 {
   position: fixed;
   left: 41%;
   font-family: gotham;
-  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  font-size: 4vw;
   text-align:center;
   color: #5493ef;
 }
@@ -98,11 +146,12 @@ img:hover{
   overflow:auto;
   font-family: gotham;
   color: #fe47ea;
-  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
-  padding:1%;
-  margin-left: 3%;
+  font-size: 3.3vw;
+  margin-left: 5vw;
+  margin-top: 0.5vw;
   border:0px;
-  width: 15%;
+  width: 14%;
+  height: 4vw;
 }
 
 .artButtons:hover{
@@ -112,10 +161,11 @@ img:hover{
 .title_1{
   position: absolute;
   overflow: auto;
+  height:4vw;
   top:18%;
   left:2%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  3vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -124,19 +174,21 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:14%;
+  height:4vw;
   left:37%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  3vw;;
   text-align: center;
   color:#fe47ea;
 }
 .title_2ish{
   position: absolute;
   overflow: auto;
+  height:4vw;
   top:22%;
   left:38%;
   font-family: gotham;
-  font-size: calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  3vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -145,8 +197,9 @@ img:hover{
   overflow: auto;
   top:12%;
   left:65%;
+  height:6vw;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  2.8vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -157,7 +210,8 @@ img:hover{
   top:68%;
   left:9%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  height:4vw;
+  font-size:  3vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -166,9 +220,10 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:65%;
+  height:4vw;
   left:38%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  3vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -177,9 +232,10 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:72%;
+  height:4vw;
   left:44%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -190,7 +246,8 @@ img:hover{
   top:68%;
   left:74%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size:  3vw;
+  height:4vw;
   text-align: center;
   color:#fe47ea;
 }
@@ -201,11 +258,13 @@ img:hover{
   overflow:auto;
   font-family: gotham;
   color: #5493ef;
-  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
-  padding:1%;
-  margin-left: 4%;
+  font-size: 3.3vw;
+  height:4vw;
+  margin-left: 5vw;
+  margin-top: 0.75vw;
   border:0px;
   width: 14%;
+  height: 4vw;
 }
 
 .desButtons:hover {
@@ -218,7 +277,7 @@ img:hover{
   top:8%;
   left:38%;
   font-family: gotham;
-  font-size:  calc(65px + (72-65) *((100vw - 700px) / (1920-700)));
+  font-size:  6vw;
   text-align: center;
   color:#5493ef;
 }
@@ -228,7 +287,8 @@ img:hover{
   top:35%;
   left:7%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  height:4vw;
+  font-size:  3vw;
   text-align: center;
   color:#5493ef;
 }
@@ -238,7 +298,8 @@ img:hover{
   top:35%;
   left:40%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
+  height:4vw;
   text-align: center;
   color:#5493ef;
 }
@@ -247,8 +308,9 @@ img:hover{
   position: absolute;
   top:35%;
   left:68%;
+  height:4vw;
   font-family: gotham;
-  font-size:  calc(24px + (38-24) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#5493ef;
 }
@@ -258,8 +320,9 @@ img:hover{
   top:58%;
   left:9%;
   font-family: gotham;
-  font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
+  height:4vw;
   color:#5493ef;
 }
 
@@ -269,8 +332,9 @@ img:hover{
   top:60%;
   left:37%;
   font-family: gotham;
-  font-size:  calc(34px + (38-34) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
+  height:4vw;
   color:#5493ef;
 }
 
@@ -280,8 +344,9 @@ img:hover{
   top:62%;
   left:4%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
+  height:4vw;
   color:#5493ef;
 }
 
@@ -290,8 +355,9 @@ img:hover{
   overflow: auto;
   top:58%;
   left:68%;
+  height:7vw;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#5493ef;
 }
@@ -299,9 +365,10 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:85%;
+  height:4vw;
   left:3%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#5493ef;
 }
@@ -310,8 +377,9 @@ img:hover{
   overflow: auto;
   top:85%;
   left:41%;
+  height:4vw;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#5493ef;
 }
@@ -319,9 +387,10 @@ img:hover{
   position: absolute;
   overflow: auto;
   top:85%;
+  height:4vw;
   left:70%;
   font-family: gotham;
-  font-size:  calc(36px + (40-36) *((100vw - 700px) / (1920-700)));
+  font-size: 3vw;
   text-align: center;
   color:#5493ef;
 }

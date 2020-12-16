@@ -3,8 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -76,7 +75,7 @@ margin:5px;
 transform: skew(345deg);
 background: #5493ef;
 font-family: gotham;
-font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+font-size: 3.8vw;
 text-align:center;
 color: black;
 }
@@ -87,7 +86,7 @@ h2 {
   position: fixed;
   left: 40%;
   font-family: gotham;
-  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  font-size:4vw;
   text-align:center;
   color: black;
 }
@@ -102,7 +101,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -116,7 +115,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -130,7 +129,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -144,7 +143,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -158,7 +157,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -172,7 +171,7 @@ h2 {
   margin: 2px;
   font-family: gothambook;
   text-align: center;
-  font-size: calc(12px + (18-12) *((100vw - 700px) / (1920-700)));
+  font-size: 1.2vw;
   color: white;
 }
 
@@ -194,11 +193,12 @@ h2 {
   overflow:auto;
   font-family: gotham;
   color: black;
-  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
-  padding:1%;
-  margin-left: 4%;
+  font-size: 3.3vw;
+  margin-left: 5vw;
+  margin-top: 0.75vw;
   border:0px;
   width: 14%;
+  height: 4vw;
 }
 
 .desButtons:hover {

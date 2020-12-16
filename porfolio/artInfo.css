@@ -1,3 +1,51 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 @font-face {
   font-family: gotham;
   src: url('gothambolditalic.ttf');
@@ -100,7 +148,7 @@ margin:5px;
 transform: skew(345deg);
 background: #fe47ea;
 font-family: gotham;
-font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+font-size:3vw;
 text-align:center;
 color: black;
 }
@@ -111,7 +159,7 @@ h2 {
   position: fixed;
   left: 45%;
   font-family: gotham;
-  font-size: calc(38px + (50-38) *((100vw - 700px) / (1920-700)));
+  font-size:4vw;
   text-align:center;
   color: black;
 }
@@ -131,7 +179,7 @@ margin:5px;
 transform: skew(345deg);
 background: #fe47ea;
 font-family: gotham;
-font-size: calc(32px + (38-32) *((100vw - 700px) / (1920-700)));
+font-size: 3vw;
 text-align:center;
 color: black;
 }
@@ -153,11 +201,12 @@ color: black;
   overflow:auto;
   font-family: gotham;
   color: black;
-  font-size: calc(24px + (34-24) *((100vw - 700px) / (1920-700)));
-  padding:1%;
-  margin-left: 3%;
+  font-size: 3.3vw;
+  margin-left: 5vw;
+  margin-top: 0.5vw;
   border:0px;
-  width: 15%;
+  width: 14%;
+  height: 4vw;
 }
 
 .artButtons:hover{
@@ -194,7 +243,7 @@ color: black;
   margin: 2px;
   font-family: gothambook;
   text-align: right;
-  font-size: calc(20px + (26-20) *((100vw - 700px) / (1920-700)));
+  font-size:1.5vw;
   color: white;
 }
 
