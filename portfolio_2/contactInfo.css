@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+@font-face {
+  font-family: gotham;
+  src: url('gothambolditalic.ttf');
+}
+
+@font-face {
+  font-family:gothambook;
+  src: url('GothamMedium.ttf');
+}
+
+body{
+ margin:0;
+  background-color: black;
+}
+
+h1{
+overflow: auto;
+position: absolute;
+right:3vw;
+top:12vh;
+width:30%;
+min-width:150px;
+height:8%;
+padding:3px;
+border:5px;
+margin:5px;
+transform: skew(345deg);
+background: yellow;
+font-family: gotham;
+font-size: 3vw;
+text-align:center;
+color: black;
+}
+h2 {
+    margin: 0px;
+    border: 0px;
+    font-family: gotham;
+    font-size: 75px;
+    text-align: center;
+     color: black;
+}
+.navBar_2 a {
+  text-decoration: none;
+}
+.navBar_2{
+   margin: auto;
+    position: fixed;
+    z-index: 2;
+    width: 95%;
+    top: 7px;
+    left: 50%;
+    transform: skew(345deg) translateX(-50%);
+    -webkit-transform: skew(345deg) translateX(-50%);
+    -moz-transform: skew(345deg) translateX(-50%);
+    -o-transform: skew(345deg) translateX(-50%);
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+  background: yellow;
+}
+.codeButtons{
+  float: left;
+  font-family: gotham;
+  font-size: 63px;
+  color: black;
+}
+.codeButtons:hover{
+  opacity:50%;
+}
+.contact-info {
+  display: flex;
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 160px;
+  justify-content: center;
+}
+.container{
+  background-color: yellow;
+  color: black;
+  font-size: 76px;
+  font-family: gotham;
+  margin-left: 10px;
+  padding: 10px;
+}
+.logo{
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+
+/*  width:17vw;
+  height:25vw;*/
+}
+img{
+  padding:0.5vw;
+  width:16vw;
+  height:23vw;
+}
+@media(max-width: 1440px){
+  h2 {
+    font-size: 60px;
+  }
+  .codeButtons {
+    font-size: 50px;
+  }
+  .container {
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 1280px){
+  .codeButtons {
+    font-size: 42px;
+  }
+}
+
+@media(max-width: 1024px){
+  h2 {
+    font-size: 50px;
+  }
+  .codeButtons {
+    font-size: 35px;
+  }
+  .container {
+    font-size: 40px;
+  }
+}
+@media(max-width: 980px){
+  .codeButtons{
+    font-size: 25px;
+  } 
+  .contact-info {
+    max-width: 100%;
+    padding: 0 15px;
+    display: block;
+  }
+  .logo {
+    text-align: center;
+    max-width: 180px;
+    margin: 0 auto 20px;
+  }
+  h2 {
+    font-size: 40px;
+}
+}
+@media(max-width: 480px){
+  h2 {
+    font-size: 20px;
+  }
+  .codeButtons {
+    font-size: 18px;
+  }
+  .logo {
+    max-width: 150px;
+  }
+  .container {
+    font-size: 28px;
+  }
+}

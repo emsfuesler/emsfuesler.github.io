@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('gothambolditalic.ttf');
+}
+
+@font-face {
+  font-family:gothambook;
+  src: url('GothamMedium.ttf');
+}
+
+body{
+  margin:0;
+  background-color: black;
+}
+.port-details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 140px 3% 40px;
+}
+.desButtons {
+    font-family: gotham;
+    color: black;
+    font-size: 63px;
+    border: 0px;
+    float: left;
+}
+.desButtons:hover {
+  text-decoration: underline, 2px, black;
+  opacity:50%;
+}
+
+.illustrator img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:30vw;
+  height:20vw;
+  margin: 5px;
+}
+
+.lenovo img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:50vw;
+  height:35vw;
+  margin: 5px;
+}
+
+.donnie img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:50vw;
+  height:70vw;
+  margin: 5px;
+}
+
+.spectrum img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:50vw;
+  height:35vw;
+  margin: 5px;
+}
+
+.acidPort img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:20vw;
+  height:25vw;
+  margin: 5px;
+}
+
+.gorillaz img{
+  overflow: auto;
+  position: relative;
+  float: left;
+  width:25vw;
+  height:25vw;
+  margin: 5px;
+}
+
+h1 {
+    padding: 3px;
+    border: 5px;
+    margin: 5px;
+    transform: skew(345deg);
+    background: #5493ef;
+    font-family: gotham;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+/* title but smaller */
+h4{
+ padding: 3px;
+    border: 5px;
+    margin: 5px;
+    transform: skew(345deg);
+    background: #5493ef;
+    font-family: gotham;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.info a.d-inline-block {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+    margin: 0px;
+    border: 0px;
+    font-family: gotham;
+    font-size: 75px;
+    text-align: center;
+    color: black;
+}
+h3{
+  margin:20px 0 0;
+  border:0px;
+  font-family: gotham;
+  font-size:28px;
+  text-align:center;
+  color: black;
+  transform: skew(345deg);
+  background: #5493ef;
+  display: inline-block;
+}
+
+.navBar {
+    margin: auto;
+    position: fixed;
+    z-index: 2;
+    width: 95%;
+    top: 7px;
+    left: 50%;
+    transform: skew(345deg) translateX(-50%);
+    -webkit-transform: skew(345deg) translateX(-50%);
+    -moz-transform: skew(345deg) translateX(-50%);
+    -o-transform: skew(345deg) translateX(-50%);
+    background: #5493ef;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+}
+
+
+.artButtons:hover{
+  opacity:50%;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0;
+    flex: 0 0 70%;
+}
+
+.info {
+    margin: 2px;
+    font-family: gothambook;
+    text-align: right;
+    font-size: 28px;
+    color: white;
+    flex: 0 0 28%;
+}
+
+.info a{
+  color:#5493ef;
+  text-decoration: none;
+  display: block;
+}
+@media(max-width: 1680px){
+  .container {
+    flex: 0 0 68%;
+  }
+}
+@media(max-width: 1440px){
+  h2 {
+    font-size: 60px;
+  }
+  .desButtons {
+    font-size: 50px;
+  }
+  .info {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media(max-width: 1280px){
+  .desButtons {
+    font-size: 42px;
+  }
+  .port-details video {
+    width: 100%;
+    height: auto;
+}
+}
+
+@media(max-width: 1024px){
+  h2 {
+    font-size: 50px;
+  }
+  .desButtons {
+    font-size: 35px;
+  }
+  .info {
+    font-size: 18px;
+  }
+  h1,
+  h4 {
+    font-size: 34px;
+  }
+}
+@media(max-width: 980px){
+  .desButtons{
+    font-size: 25px;
+  } 
+  h2 {
+    font-size: 40px;
+  }
+  .container,
+  .info {
+    flex: 0 0 100%;
+  }
+  .port-details {
+    margin:100px 3% 40px;
+  }
+}
+@media(max-width: 480px){
+  h2 {
+    font-size: 20px;
+  }
+  .desButtons {
+    font-size: 18px;
+  }
+}

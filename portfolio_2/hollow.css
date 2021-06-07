@@ -1,0 +1,525 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: gotham;
+  src: url('gothambolditalic.ttf');
+}
+
+@font-face {
+  font-family:gothambook;
+  src: url('GothamMedium.ttf');
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+  margin:0;
+  background: black;
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+h1{
+
+padding:3px;
+border:5px;
+margin:5px;
+transform: skew(345deg);
+background: #5493ef;
+font-family: gotham;
+font-size: 70px;
+text-align:center;
+color: black;
+display: inline-block;
+}
+.text-center {
+    text-align: center;
+}
+h2 {
+    margin: 0px;
+    border: 0px;
+    font-family: gotham;
+    font-size: 75px;
+    text-align: center;
+    color: black;
+}
+.hollow-content {
+    width: 100%;
+    margin: 140px auto 0;
+    max-width: 90%;
+}
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* text boxes */
+.info{
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.scene_2 {
+  margin-bottom: 50px;
+}
+.info_2{
+  position: absolute;
+  overflow: auto;
+  top: 69vw;
+  width:90vw;
+  right: 6vw;
+  height:50%;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.info_3{
+  position: absolute;
+  overflow: auto;
+  top: 138vw;
+  width:90vw;
+  height: 10vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.info_4{
+  position: absolute;
+  overflow: auto;
+  top: 191vw;
+  width:90vw;
+  right: 6vw;
+  height: 10vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.info_5{
+  position: absolute;
+  overflow: auto;
+  top: 255vw;
+  width:90vw;
+  height: 10vw;
+  right: 6vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.info_6{
+  position: absolute;
+  overflow: auto;
+  top: 313vw;
+  width:90vw;
+  right: 6vw;
+  height: 10vw;
+  margin: 2px;
+  font-family: gothambook;
+  text-align: center;
+  font-size: 1.2vw;
+  color: white;
+}
+
+/* Navbar */
+.navBar{
+  margin: auto;
+    position: fixed;
+    z-index: 2;
+    width: 95%;
+    top: 7px;
+    left: 50%;
+    transform: skew(345deg) translateX(-50%);
+    -webkit-transform: skew(345deg) translateX(-50%);
+    -moz-transform: skew(345deg) translateX(-50%);
+    -o-transform: skew(345deg) translateX(-50%);
+    background: #5493ef;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+  background: #5493ef;
+}
+
+.desButtons {
+    font-family: gotham;
+    color: black;
+    font-size: 63px;
+    border: 0px;
+    float: left;
+}
+a {
+  text-decoration: none;
+}
+.desButtons:hover {
+  text-decoration: underline, 2px, black;
+  opacity:50%;
+}
+/* scenes (out of order) */
+.scene_2 img{
+  max-width: 100%;
+height: auto;
+width: 70%;
+margin: 0 auto;
+display: block;
+}
+
+.scene_3 img{
+  position: absolute;
+  top:148vw;
+  height: 40vw;
+  width: 98vw;
+}
+
+.scene_4 img{
+  position: absolute;
+  top:202vw;
+  height: 50vw;
+  width: 98vw;
+}
+
+.scene_5 img{
+  position: absolute;
+  top:265vw;
+  height: 45vw;
+  width: 98vw;
+}
+
+/* JQUERY STUFF */
+.homes{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 39.5vw;
+  top:162.5vw;
+}
+
+.homes:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.homesInfo{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  right: 32vw;
+  top:165vw;
+  background-color: white;
+  color: black;
+  font-size: 0.8vw;
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.pollen{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  left: 30.5vw;
+  top:161.5vw;
+}
+
+.pollen:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+.pollenInfo{
+  position: absolute;
+  width: 10vw;
+  height: 7vw;
+  left: 33vw;
+  top:164vw;
+  background-color: white;
+  color: black;
+  font-size: 0.8vw;
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.tree{
+  position: absolute;
+  width: 10vw;
+  height: 12vw;
+  left: 21vw;
+  top:166vw;
+}
+
+.tree:hover{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.treeInfo{
+  position: absolute;
+  width: 10vw;
+  height: 5vw;
+  left: 32vw;
+  top:166vw;
+  background-color: white;
+  color: black;
+  font-size:0.8vw;
+  font-family: gothambook;
+  padding: 2px;
+}
+
+.ficus{
+  position: absolute;
+  width: 9vw;
+  height: 24vw;
+  left: 7vw;
+  top:156vw;
+}
+
+.ficus:hover{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.ficusInfo{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  left: 17vw;
+  top:166vw;
+  background-color: white;
+  color: black;
+  font-size: 0.8vw;
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.fern{
+  position: absolute;
+  width: 13vw;
+  height: 11vw;
+  left: 2vw;
+  top:176vw;;
+}
+
+.fern:hover{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.fernInfo{
+  position: absolute;
+  width: 9vw;
+  height: 7vw;
+  left: 16vw;
+  top:180vw;
+  background-color: white;
+  color: black;
+  font-size:0.8vw;
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.mouse{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 4vw;
+  top:184vw;
+}
+
+.mouse:hover{
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.mouseInfo{
+  position: absolute;
+  width: 9vw;
+  height: 7vw;
+  right: 6vw;
+  top:180vw;
+  background-color: white;
+  color: black;
+  font-size: 0.8vw;
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.mouseInfo img{
+  position: absolute;
+  width: 8vw;
+  height: 6vw;
+  padding-top: 1vw;
+}
+
+.spores{
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  right: 26vw;
+  top:175vw;
+}
+
+.spores:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.sporesInfo{
+  position: absolute;
+  width: 9vw;
+  height: 7vw;
+  right: 17vw;
+  top:175vw;
+  background-color: white;
+  color: black;
+  font-size: 0.84vw;
+  font-family: gothambook;
+  padding: 3px;
+}
+
+.documentation {
+    width: 60%;
+    margin: 0 auto;
+}
+@media(max-width: 1440px){
+  h2 {
+    font-size: 60px;
+  }
+  .desButtons {
+    font-size: 50px;
+  }
+  .info {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+}
+
+@media(max-width: 1280px){
+  .desButtons {
+    font-size: 42px;
+  }
+}
+
+@media(max-width: 1024px){
+  h2 {
+    font-size: 50px;
+  }
+  .desButtons {
+    font-size: 35px;
+  }
+  .info {
+    font-size: 18px;
+  }
+  h1,
+  h4 {
+    font-size: 34px;
+  }
+}
+@media(max-width: 980px){
+  .desButtons{
+    font-size: 25px;
+  } 
+  h2 {
+    font-size: 40px;
+  }
+  .container,
+  .info {
+    flex: 0 0 100%;
+  }
+  .port-details {
+    margin:100px 3% 40px;
+  }
+}
+@media(max-width: 480px){
+  h2 {
+    font-size: 20px;
+  }
+  .desButtons {
+    font-size: 18px;
+  }
+}
